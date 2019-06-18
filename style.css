@@ -3,4 +3,47 @@ body
   margin: 0;
   padding: 0;
   background: ;
+  min-height: 100vh;
+}
+
+header
+{
+  width: 100%;
+  height: 200px;
+  background: ;
+  border-bottom: solid 3px #000;
+}
+
+.container
+{
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box
+{
+  position: relative;
+  height: 300px;
+  width: 200px;
+  border: solid 1px #000;
+  display: inline-block;
+
+}
+
+.pic
+{
+  width: 100%;
+  height: 70%;
+  width: 100px;
+  height: 100px;
+  background: blue;
+}
+
+.price
+{
+
 }
